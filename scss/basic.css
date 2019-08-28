@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$color-main".
-        on line 31 of C:\Users\Homr\WebstormProjects\sokol\Multipurpose\scss\basic.scss
+        on line 32 of C:\Users\Homr\WebstormProjects\sokol\Multipurpose\scss\basic.scss
 
-26: .header__container, .main__container {
-27:   display: flex;
-28:   justify-content: space-between;
-29: }
-30: .main {
-31:   background-color: $color-main;
-32: }
-33: .content {
-34:   width: 840px;
-35: }
-36: .subfooter {
+27: .header__container, .main__container {
+28:   display: flex;
+29:   justify-content: space-between;
+30: }
+31: .main {
+32:   background-color: $color-main;
+33: }
+34: .content {
+35:   width: 840px;
+36: }
+37: .subfooter {
 
 Backtrace:
-C:\Users\Homr\WebstormProjects\sokol\Multipurpose\scss\basic.scss:31
+C:\Users\Homr\WebstormProjects\sokol\Multipurpose\scss\basic.scss:32
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-main\".\A         on line 31 of C:\Users\Homr\WebstormProjects\sokol\Multipurpose\scss\basic.scss\A \A 26: .header__container, .main__container {\A 27:   display: flex;\A 28:   justify-content: space-between;\A 29: }\A 30: .main {\A 31:   background-color: $color-main;\A 32: }\A 33: .content {\A 34:   width: 840px;\A 35: }\A 36: .subfooter {"; }
+  content: "Error: Undefined variable: \"$color-main\".\A         on line 32 of C:\Users\Homr\WebstormProjects\sokol\Multipurpose\scss\basic.scss\A \A 27: .header__container, .main__container {\A 28:   display: flex;\A 29:   justify-content: space-between;\A 30: }\A 31: .main {\A 32:   background-color: $color-main;\A 33: }\A 34: .content {\A 35:   width: 840px;\A 36: }\A 37: .subfooter {"; }

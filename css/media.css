@@ -1,5 +1,11 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
     .navbar__menu {
+        display: none;
+    }
+    .sidebar {
+        display: none;
+    }
+    .submain {
         display: none;
     }
     .main__container {
@@ -14,31 +20,60 @@
     .main {
         padding-bottom: 30px;
     }
-    .footer__container {
-        display: flex;
-        justify-content: space-around;
-    }
+    /*.footer__container {*/
+    /*    display: flex;*/
+    /*    justify-content: space-around;*/
+    /*}*/
     .footer__menu {
         margin-left: 0;
     }
-    .submain {
-        display: none;
+    .footer__card {
+        padding: 20px 10px 0;
     }
-    .sidebar {
-        display: none;
-    }
-
-}
-@media screen and (max-width: 768px) {
     .rightside__input {
         width: 200px;
     }
+
+
+
+}
+@media screen and (max-width: 880px) {
+
     .content {
-        width: 768px;
+        width: 100%;
     }
     .sale {
         flex-direction: column;
         align-items: center;
+    }
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__menu--subfooter {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__card {
+        text-align: center;
+        margin: 0;
+    }
+    .footer__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    .footer__payment-img {
+        padding: 0 10px 30px;
+    }
+
+
+    .social-wrap {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
     }
 }
 @media screen and (max-width: 414px) {
@@ -80,21 +115,8 @@
     .product__card--featured {
         text-align: center;
     }
-    .footer__card {
-        text-align: center;
-    }
-    .footer__container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .footer__menu--subfooter {
-        flex-direction: column;
-        align-items: center;
-    }
-    .social-wrap {
-        flex-direction: row;
-        justify-content: space-around;
-    }
+
+
     .footer__card {
         margin: 0;
         padding: 0 10px;
