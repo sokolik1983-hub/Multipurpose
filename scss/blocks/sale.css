@@ -1,0 +1,11 @@
+.sale {
+  display: flex;
+  justify-content: space-between; }
+
+.sale__img {
+  box-shadow: 0 0 7px #D0D3D4; }
+
+.sale__img--second {
+  box-shadow: 0 0 7px #D0D3D4; }
+
+/*# sourceMappingURL=sale.css.map */

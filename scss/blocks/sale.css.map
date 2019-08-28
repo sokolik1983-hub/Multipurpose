@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACJ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;;AAEhC,UAAW;EACT,UAAU,EAAE,eAAe;;AAE7B,kBAAmB;EACjB,UAAU,EAAE,eAAe",
+"sources": ["sale.scss"],
+"names": [],
+"file": "sale.css"
+}

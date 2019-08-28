@@ -12,7 +12,7 @@
 .navbar__items {
   list-style: none;
 }
-.navbar__links {
+.navbar__links, .navbar__categories {
   color: white;
   font-family: "Lato-Regular", Pacifico, "Arial Black", sans-serif;
   font-size: 15px;
@@ -20,4 +20,17 @@
   text-transform: uppercase;
   text-decoration: none;
   padding-right: 42px;
+}
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__categories {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.navbar__links--text {
+  padding: 0 0 0 15px;
+  margin: 0;
 }

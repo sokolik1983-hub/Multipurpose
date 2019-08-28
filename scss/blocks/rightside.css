@@ -1,0 +1,45 @@
+.rightside__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.rightside__items {
+  list-style: none;
+  padding: 0 16px;
+  border-right: 2px solid white; }
+
+.rightside__links {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  font-family: "Lato-Regular", Ubuntu, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 10px; }
+
+.rightside__items--login {
+  border-right: 2px solid black; }
+
+.rightside__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.rightside__input {
+  width: 531px;
+  height: 40px;
+  margin: 0;
+  border: 2px solid white;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px; }
+
+.rightside__button {
+  background: url("../images/dot11.png") no-repeat center;
+  background-color: #f10e34;
+  border: 2px solid #f10e34;
+  height: 40px;
+  width: 55px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+/*# sourceMappingURL=rightside.css.map */
