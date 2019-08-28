@@ -233,6 +233,9 @@ body {
   align-content: center;
   margin-left: 5px; }
 
+.product__ellipse-wrap {
+  display: flex; }
+
 .product__arrow {
   transform: scale(-1, 1);
   width: 22px; }
@@ -441,7 +444,7 @@ body {
   box-shadow: 0 0 7px #D0D3D4; }
 
 .promo {
-  background: url("../images/Layer 20.png");
+  background: url("../images/Layer 20.png") no-repeat;
   height: 227px;
   width: 100%;
   display: flex;
