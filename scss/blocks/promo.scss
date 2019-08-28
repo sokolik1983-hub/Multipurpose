@@ -1,0 +1,25 @@
+.promo {
+  background: url("../images/Layer 20.png");
+  height: 227px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0 0 7px #D0D3D4;
+}
+.promo__tittle {
+  text-align: left;
+  background-color: white;
+  width: 40%;
+  height: 222px;
+  margin-top: 5px;
+  padding-top: 55px;
+}
+.promo__name, .promo__text {
+  font-family: "Lato-Regular", Ubuntu, Arial, sans-serif;
+  margin: 0;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.promo__text {
+  color: #0f8ce9;
+}

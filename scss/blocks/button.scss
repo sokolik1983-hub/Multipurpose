@@ -1,0 +1,11 @@
+.button {
+  padding: 0 20px;
+  margin: 25px 0 32px;
+  cursor: pointer;
+  border-radius: 20px;
+  height: 45px;
+  border: 1px solid $color-secondary;
+  background-color: $color-secondary;
+  color: white;
+  text-transform: uppercase;
+}

@@ -1,0 +1,118 @@
+.product {
+  width: 100%;
+  background-color: $color-cards;
+  box-shadow: 0 0 7px #D0D3D4;
+}
+.product__top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #f8f8f8;
+  margin: 0 20px;
+}
+.product__top-wrap {
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+}
+.product__tittle {
+  font-family: "Lato-Bold", Ubuntu, Arial, sans-serif;
+  font-size: 22px;
+  color: black;
+  text-transform: uppercase;
+}
+.product__menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.product__link {
+  text-transform: capitalize;
+  font-family: "Lato-Regular", Ubuntu, Arial, sans-serif;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  padding-right: 25px;
+}
+.product__ellipse {
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  background-color: #f10e34;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 5px;
+}
+.product__arrow {
+  transform: scale(-1, 1);
+  width: 22px;
+}
+.product__ellipse--secondary {
+  background-color: #cacaca;
+}
+.product__arrow-img {
+  width: 22px;
+}
+.product__container {
+  display: flex;
+}
+.product__card {
+  text-align: center;
+  width: 100%;
+  background-color: $color-cards;
+  padding: 27px 0;
+}
+.product__img {
+  margin: 0 auto;
+  width: 175px;
+  height: 200px;
+  background-color: #e1e9ec;
+}
+.product__name {
+  line-height: 50px;
+  font-family: "Lato-Regular", Ubuntu, Arial, sans-serif;
+  color: #9e9e9e;
+  font-size: 15px;
+  margin: 0;
+}
+.product__oldprice {
+  text-decoration: line-through;
+  color: #9e9e9e;
+}
+.product__newprice {
+  font-weight: bold;
+  color: black;
+}
+.product__newprice, .product__oldprice {
+  font-size: 15px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+.product__stars {
+  padding-top: 12px;
+}
+.product__container--featured {
+
+  display: flex;
+  justify-content: center;
+}
+.product__card--featured {
+  text-align: left;
+}
+.product__img--featured, .product__img--featured img {
+  width: 88px;
+  height: 82px;
+}
+.product__name--featured {
+  line-height: 35px;
+}
+.product__img--hotdeals {
+  width: 300px;
+  background-color: $color-cards;
+}
+.product__card--news {
+  text-align: left;
+  padding: 0 20px
+}

@@ -1,0 +1,82 @@
+.banner {
+  box-shadow: 0 0 7px #D0D3D4;
+}
+
+
+.banner__promo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: url("../images/Layer5.png") no-repeat center/cover;
+  width: 100%;
+  height: 375px;
+}
+.banner__tittle {
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+.banner__tittle-collection {
+  font-family: "Lato-Bold",Ubuntu, Arial, sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #303a7a;
+  margin: 0;
+}
+.banner__tittle-promo, .banner__tittle-text {
+  font-family: "Lato-Regular",Ubuntu, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+  text-shadow: 3px 3px 5px lightgrey;
+}
+.banner__tittle-promo {
+  font-size: 55px;
+}
+.banner__tittle-text {
+  font-size: 25px;
+}
+.banner__button-link {
+  font-family: "Lato-Bold",Ubuntu, Arial, sans-serif;
+  padding: 15px 20px;
+  border: 2px solid black;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  transition: 0.3s;
+}
+.banner__button-link:hover {
+  background-color: black;
+  color: white;
+}
+.banner__h4, .banner__p {
+  font-size: 15px;
+  color: white;
+  margin: 0;
+  transition: 0.3s;
+}
+.banner__h4 {
+  font-family: "Lato-Regular",Ubuntu, Arial, sans-serif;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+.banner__p {
+  font-family: "Lato-Regular", Ubuntu, Arial, sans-serif;
+  text-transform: capitalize;
+  padding-bottom: 25px;
+}
+.banner__container {
+  background-color: $color-secondary;
+  display: flex;
+  text-align: center;
+}
+.banner__link {
+  text-decoration: none;
+  width: 100%;
+}
+.banner__link:hover .banner__h4 {
+  color: lightgrey;
+}
+.banner__link:hover .banner__p {
+  color: lightgrey;
+}

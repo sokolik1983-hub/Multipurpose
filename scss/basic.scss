@@ -1,0 +1,55 @@
+@font-face {
+  src: url("../fonts/9622.ttf");
+  font-family: "Lato-Regular";
+}
+@font-face {
+  src: url("../fonts/9623.ttf");
+  font-family: "Lato-Bold";
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.top-header {
+  width: 100%;
+  max-width: 1920px;
+  background-color: black;
+}
+.header__container, .main__container {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  background-color: $color-main;
+}
+.content {
+  width: 840px;
+}
+.subfooter {
+  background-color: black;
+  width: 100%;
+}
+.social-wrap {
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

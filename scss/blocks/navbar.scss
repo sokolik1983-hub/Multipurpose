@@ -1,0 +1,23 @@
+.navbar {
+  width: 100%;
+  max-width: 1920px;
+  height: 50px;
+  background-color: $color-secondary;
+}
+.navbar__menu {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.navbar__items {
+  list-style: none;
+}
+.navbar__links {
+  color: white;
+  font-family: "Lato-Regular", Pacifico, "Arial Black", sans-serif;
+  font-size: 15px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-right: 42px;
+}

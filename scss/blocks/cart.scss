@@ -1,0 +1,28 @@
+.cart {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.cart__ellipse {
+  background-color: #f10e34;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.cart__text {
+  padding: 3px 30px 3px 5px;
+}
+.cart__total, .cart__price {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Lato-Regular", Pacifico, "Arial Black", sans-serif;
+  font-size: 12px;
+}
+.cart__price {
+  font-size: 16px;
+}
